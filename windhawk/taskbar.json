@@ -1,0 +1,21 @@
+{
+    "theme": "Bubbles",
+    "resourceVariables[0].variableKey": "",
+    "resourceVariables[0].value": "",
+    "controlStyles[0].target": "Taskbar.TaskbarFrame > Grid#RootGrid > Taskbar.TaskbarBackground > Grid > Rectangle#BackgroundFill",
+    "controlStyles[0].styles[0]": "Fill:=<AcrylicBrush TintColor=\"{ThemeResource SystemAccentColorDark3}\" TintOpacity=\"0.6\" FallbackColor=\"{ThemeResource SystemAccentColorDark1}\"/>",
+    "controlStyles[1].styles[0]": "Background:=<AcrylicBrush TintColor=\"{ThemeResource SystemAccentColorDark2}\" TintOpacity=\"0.5\" FallbackColor=\"{ThemeResource SystemAccentColorDark1}\"/>",
+    "controlStyles[1].target": "Grid#OverflowRootGrid > Border",
+    "controlStyles[1].styles[1]": "BorderThickness=0",
+    "controlStyles[2].target": "Taskbar.TaskbarBackground#HoverFlyoutBackgroundControl > Grid > Rectangle#BackgroundFill",
+    "controlStyles[2].styles[0]": "Fill:=<AcrylicBrush TintColor=\"{ThemeResource SystemAccentColorDark2}\" TintOpacity=\"0.5\" FallbackColor=\"{ThemeResource SystemAccentColorDark1}\"/>",
+    "controlStyles[3].target": "SystemTray.Stack#NonActivatableStack ",
+    "controlStyles[3].styles[0]": "Visibility=collapsed",
+    "controlStyles[4].target": "Grid#SystemTrayFrameGrid",
+    "controlStyles[4].styles[0]": "Background:=<AcrylicBrush TintColor=\"{ThemeResource SystemAccentColorDark3}\" TintOpacity=\"0.5\" FallbackColor=\"{ThemeResource SystemAccentColorDark2}\"/>",
+    "controlStyles[5].target": "Taskbar.TaskListLabeledButtonPanel@RunningIndicatorStates > Border#BackgroundElement",
+    "controlStyles[5].styles[0]": "Background:=<AcrylicBrush TintColor=\"{ThemeResource SystemAccentColorDark3}\" TintOpacity=\"0.5\" FallbackColor=\"{ThemeResource SystemAccentColorDark2}\"/>",
+    "controlStyles[5].styles[1]": "Background@NoRunningIndicator=Transparent",
+    "controlStyles[6].target": "Taskbar.TaskListButtonPanel@CommonStates > Border#BackgroundElement",
+    "controlStyles[6].styles[0]": "Background=Transparent"
+}
