@@ -1,0 +1,31 @@
+{
+    "telemetry.feedback.enabled": false,
+    "telemetry.telemetryLevel": "off",
+    "workbench.enableExperiments": false,
+    "workbench.colorCustomizations": {
+        "editor.background": "#000000",
+        "terminal.background": "#000000",
+        "tab.activeBackground": "#191724",
+        "notebook.cellEditorBackground": "#000000"
+    },
+    "chat.agent.enabled": false,
+    "chat.commandCenter.enabled": false,
+    "editor.minimap.enabled": false,
+    "security.allowedUNCHosts": [
+        "wsl.localhost"
+    ],
+    "workbench.editorAssociations": {
+        "*.md": "default",
+        "*.markdown": "default",
+        "*.csv": "default",
+        "*.svg": "default"
+    },
+    "workbench.sideBar.location": "right",
+    "window.commandCenter": false,
+    "window.density.editorTabHeight": "compact",
+    "workbench.colorTheme": "Rosé Pine (no italics)",
+    "workbench.activityBar.location": "bottom",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.productIconTheme": "material-product-icons",
+    "notebook.experimental.generate": false
+}
