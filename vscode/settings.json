@@ -5,8 +5,11 @@
     "workbench.colorCustomizations": {
         "editor.background": "#000000",
         "terminal.background": "#000000",
-        "tab.activeBackground": "#191724",
-        "notebook.cellEditorBackground": "#000000"
+        "tab.activeBackground": "#282a36",
+        "notebook.cellEditorBackground": "#000000",
+        "editorOverviewRuler.background": "#000000",
+        "editor.lineHighlightBorder": "#000000",
+        "editor.lineHighlightBackground": "#282a36"
     },
     "chat.agent.enabled": false,
     "chat.commandCenter.enabled": false,
@@ -23,9 +26,10 @@
     "workbench.sideBar.location": "right",
     "window.commandCenter": false,
     "window.density.editorTabHeight": "compact",
-    "workbench.colorTheme": "Rosé Pine (no italics)",
+    "workbench.colorTheme": "Dracula Theme",
     "workbench.activityBar.location": "bottom",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.productIconTheme": "material-product-icons",
-    "notebook.experimental.generate": false
+    "notebook.experimental.generate": false,
+    "workbench.layoutControl.enabled": false
 }
