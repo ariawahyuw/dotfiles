@@ -10,6 +10,7 @@ large_file_skip_byte_limit = 0
 # - Explicit aliasing table: AL01
 # - Prefer COALESCE over IFNULL: CV02
 # - Prefer ON over USING: ST07
+  
 exclude_rules=AL01,CV02,ST07
 
 
@@ -25,9 +26,6 @@ template_blocks_indent = false
 
 # Layout configuration
 # See https://docs.sqlfluff.com/en/stable/perma/layout_spacing.html
-
-[sqlfluff:layout]
-end_of_file = false
 
 [sqlfluff:layout:type:comma]
 line_position = leading
